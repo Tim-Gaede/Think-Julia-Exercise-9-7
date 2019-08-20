@@ -1,3 +1,4 @@
+#-------------------------------------------------------------------------------
 function hasTripleDouble(w)
 # Tests to see if a word has three consecutive double letters    
     if length(w) < 6    return false   end
@@ -20,8 +21,10 @@ function hasTripleDouble(w)
 
     tripleDoubleFound
 end
+#-------------------------------------------------------------------------------
 
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function main()
 
     words = []
@@ -47,4 +50,5 @@ function main()
     println("\n"^3, "There are $count words with")
     println("three consecutive double letters.")
 end
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 main()
