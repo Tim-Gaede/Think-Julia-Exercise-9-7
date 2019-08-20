@@ -1,4 +1,5 @@
 function hasTripleDouble(w)
+# Tests to see if a word has three consecutive double letters    
     if length(w) < 6    return false   end
 
     W = uppercase(w) # Make the function case insensitive
