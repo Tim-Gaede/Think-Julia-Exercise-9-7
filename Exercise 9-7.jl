@@ -24,7 +24,7 @@ end
 function main()
 
     words = []
-    path = # <------------------- Copy and paste your path here ***************************
+    path = # <------------------- Copy and paste the path to your words.txt file here ***************************
     open(path, "r") do f
         for line in eachline(f)
           push!(words, line)
