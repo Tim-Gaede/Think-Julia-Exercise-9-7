@@ -24,7 +24,7 @@ end
 function main()
 
     words = []
-    path = "C:/Users/TimGa/JL/Think Julia/Chapter 09/words.txt"
+    path = # <------------------- Copy and paste your path here ***************************
     open(path, "r") do f
         for line in eachline(f)
           push!(words, line)
